@@ -9,7 +9,6 @@ import checkedItem from '../img/check-complete.svg';
 class TodoItem extends Component {
   render() {
     const { item, onClick, onDeleteItem } = this.props;
-    // console.log(onDeleteItem)
     let url = checkItem;
     if (item.isComplete) {
       url = checkedItem;
