@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="root"></div>
+  <!-- <div class="Tittle">ReactJs Tutorials</div>
+  <img src="https://3.bp.blogspot.com/-HzIiVdDAVfs/WghWWHFiEFI/AAAAAAAABz8/ViklQcn0bBIXkg71fQE0YvS5M0CFkEbmwCEwYBhgL/s640/1_XaGxIa_JuHc8YTR5Znv6tg.png"> -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    // const Tittle = React.createElement('div', { className: 'tittle'}, 'ReactJs Tutorials');
+    const Tittle = <div className="tittle">ReactJs Tutorials</div>;
+    const Image = React.createElement('img', { src:'https://3.bp.blogspot.com/-HzIiVdDAVfs/WghWWHFiEFI/AAAAAAAABz8/ViklQcn0bBIXkg71fQE0YvS5M0CFkEbmwCEwYBhgL/s640/1_XaGxIa_JuHc8YTR5Znv6tg.png'});
+
+    const App = React.createElement('div', null, Tittle, Image, Schedule);
+
+    const root = document.getElementById('root');
+    ReactDOM.render(App, root);
+    
+  </script>
+</body>
+</html>

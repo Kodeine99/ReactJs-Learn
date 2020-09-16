@@ -1,0 +1,67 @@
+
+.TodoItem {
+  font-family: 'Helvetica Ne',
+  Helvetica,
+  Arial,
+  sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+  padding: 10px 5px;
+  border-bottom: 1px solid #bebebe;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+.destroy {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 32px;
+  height: 32px;
+  margin: auto 0;
+  font-size: 30px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  transition: color 0.2s ease-out;
+}
+.destroy:focus {
+  outline: none;
+}
+.TodoItem:hover .destroy {
+  display: block;
+}
+.TodoItem .destroy:after {
+  content: 'x';
+  align-items: center;
+}
+.TodoItem .destroy:hover {
+  color: #af5b5e;
+}
+.TodoItem-completed > p{
+  text-decoration: line-through;
+  color: #999;
+}
+.TodoItem > p {
+  margin: 0;
+  padding-left: 25px;
+}
+.TodoItem:last-child {
+  border:none;
+}
