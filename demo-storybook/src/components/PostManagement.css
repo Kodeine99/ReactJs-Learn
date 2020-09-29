@@ -1,0 +1,53 @@
+.PostManagement {
+    display: block;
+    border: 1px solid #999;
+    border-radius: 10px;
+    max-width: 520px;
+    max-height: 120px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    margin: 0 10px;
+}
+.header h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: auto 0;
+}
+.post-option {
+    align-items: center;
+    text-align: center;
+    margin:auto 0;
+}
+.post-option a {
+    display: inline-block;
+    min-width: 50px;
+    margin: 10px 0;
+    margin-left:20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #050505;
+    background-color: #E4E6EB;
+    font-size: 20px;
+    font-weight: 500;
+}
+.post-look {
+    display:flex;
+    justify-content: space-between;
+    /* margin: 16px 40px; */
+}
+.post-look a {
+    display:inline-block;
+    padding: 16px 24px;
+    margin: 0 10px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #050505;
+}
+.post-look a:hover {
+    color: #3476F2;
+    border-bottom: 1px solid #3476F2;
+}

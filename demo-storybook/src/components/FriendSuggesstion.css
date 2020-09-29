@@ -1,0 +1,51 @@
+.FriendSuggesstion {
+    border: 1px solid #999;
+    border-radius: 10px;
+    max-width: 500px;
+}
+.fs-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.fs-header h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #999999;
+}
+.fs-header a {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #050505;
+    margin: auto 0;
+}
+.fs-Content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+.fs-Content .follow {
+    display: block;
+    margin: auto 0;
+}
+.fs-info {
+    display: flex;
+    margin: 10px 0;
+}
+.fs-info img {
+    display: block;
+    border-radius: 50%;
+}
+.fs-info .fs-info-nickName {
+    margin-left: 10px;
+}
+.fs-info .fs-info-nickName p {
+    margin: 10px 0 0 ;
+    color: #999999;
+    font-size: 16px;
+}
+.fs-info .fs-info-nickName a {
+    font-size: 16px;
+    color: #050505;
+}
